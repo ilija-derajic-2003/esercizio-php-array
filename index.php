@@ -12,7 +12,19 @@
   </head>
   <body>
   
+  <?php
+  	$a = [5, 10, 20, 1, 8];
+
+  	for ($i=0; $i < count ($a) ; $i++) { 
+  		print '<li>' .$a [$i]. '</li>';
+  	}
+  ?>
 	
+	<?php
+  	$a = ['mela', 'kiwi', 'pera'];
+
+  	echo $a[1];
+  ?>
 	<h1>Hello, world!</h1>
 	<body background="http://i.imgur.com/4obrSTa.png">
 
